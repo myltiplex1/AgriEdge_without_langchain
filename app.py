@@ -21,7 +21,7 @@ def get_latest_sensor_data(path="data/farm_data_log.json", num_entries=3):
 
 # Streamlit app configuration
 st.set_page_config(
-    page_title="AgriEdge: Smart Farm Assistant",
+    page_title="AgriEdge: A Smart Farm Assistant",
     page_icon="🌾",
     layout="wide",
     initial_sidebar_state="expanded"
