@@ -69,7 +69,7 @@ if 'query_history' not in st.session_state:
     st.session_state.query_history = []
 
 # Main app layout
-st.title("🌾 AgriEdge: Smart Farm Assistant")
+st.title("🌾 AgriEdge: A Smart Farm Assistant")
 st.markdown("Ask about your farm's conditions, and get tailored advice based on real-time sensor data and agricultural knowledge.")
 
 # Sidebar for sensor data and query history
