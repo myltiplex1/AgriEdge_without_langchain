@@ -1,4 +1,4 @@
-# 🌾 AgriEdge: Smart Farm Assistant
+# 🌾 AgriEdge: A Smart Farm Assistant
 
 An AI-powered assistant that uses real-time sensor data and textbook-based agricultural knowledge to provide insights, analysis, and actionable suggestions for small to medium-scale farms. Comes with both command-line and web interfaces.
 
@@ -9,7 +9,7 @@ An AI-powered assistant that uses real-time sensor data and textbook-based agric
 - 📡 Analyzes **real-time farm sensor data** (soil, water, environment)
 - 📚 Retrieves context from **agricultural PDF documents**
 - 🤖 Uses **retrieval-augmented generation (RAG)** for grounded reasoning
-- 🧠 Powered by **Ollama + LLaMA 3**
+- 🧠 Powered by **Ollama + LLaMA 3.2**
 - 📝 Generates **natural language summaries and actionable insights**
 - 🔒 Runs **fully local** — no cloud, no data sharing
 - 🌐 Supports **Streamlit-based dashboard** for non-technical users
@@ -40,8 +40,8 @@ smartfarm/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/smartfarm.git
-cd smartfarm
+git clone https://github.com/your-username/AgriEdge_without_langchain.git
+cd AgriEdge_without_langchain
 ```
 
 ### 2. Install Python Dependencies
@@ -57,7 +57,8 @@ Make sure you have Ollama installed and running.
 Download the LLaMA 3 model:
 
 ```bash
-ollama run llama3
+ollama pull llama3.2:3b
+ollama pull nomic-embed-text
 ```
 
 Make sure Ollama is running in the background before using the assistant.
